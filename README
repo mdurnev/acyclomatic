@@ -1,0 +1,16 @@
+This is an example of a program where the cyclomatic complexity of each function equals 1:
+- all loops are converted into recursive function calls,
+- all branching statements are replaced with arithmetic and logical calculations
+
+This program converts an arithmetical expression into the postfix form
+
+Expression should be composed of following characters:
+  alphabetical low-case characters 'a'-'z',
+  additive low-priority operations '+' and '-',
+  multiplicative high-priority operations '*' and '/',
+  round brackets '(' and ')'.
+
+Example:
+  a+(b+c*d)*e+f/g+h   ->   abcd*+e*+fg/+h+
+
+Copyright 2006-2016 Mikhail Durnev (mdurnev@gmail.com). Released under the GPLv3
